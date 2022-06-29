@@ -1,3 +1,36 @@
-body {
-    margin:0
+
+.card {
+    height: 5rem;
+    background-color: peachpuff;
+    padding: 0.7rem;
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0.5rem 0.1rem #2B24B2;
+}
+
+.card-logo {
+    width: 40%;
+    height: 60%;
+    transition: transform .3s ease-out;
+
+}
+
+.card:hover .card-logo {
+    transform: scale(1.15);
+}
+
+.ul {
+    list-style: inside;
+    text-align: left;
+    padding-left: 1rem;
+    font-size: 0.8rem;
 }
